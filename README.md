@@ -1,6 +1,6 @@
 # Azure Functions
 Azure Functions Demo files
-Please see my youtube chanel for more information on azure functions:
+Please see my youtube channel for more information on azure functions:
 
 youtube.com/c/HugoSilvaRocha
 
