@@ -30,13 +30,15 @@ namespace PowerCode_DepositProfit
             threshold = threshold ?? data?.threshold;
 
             int years = 0;
+            bool yearend =false;
 
             float d = float.Parse(deposit);
-            for (int y = 1; ; y++)
+            for (int y = 1;!yearend; y++)
             {
                 if ((d += float.Parse(rate) / 100f * d) >= float.Parse(threshold))
                 {
                    years = y;
+                    yearend = true;
                 }
             }
 
