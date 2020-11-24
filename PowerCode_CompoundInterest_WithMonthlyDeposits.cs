@@ -47,7 +47,7 @@ namespace PowerCode_DepositInterest
                 if (y < 2)
                 {
                     td = id + ct * dc;
-                    ti = rt / 100f * id;
+                    ti = ti+(rt / 100f * id);
                 }
                 else
                 {
